@@ -88,3 +88,4 @@ location / {
 ```
 
 Request -> Nginx -> Tomcat1 / Tomcat2
+
