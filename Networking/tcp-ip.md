@@ -34,3 +34,19 @@
 |    (Ethernet, Wi-Fi, MAC, Physical Drivers)           |
 +-------------------------------------------------------+
 ```
+
+#### Network Access Layer
+
+- Moves data between devices on the same physical network.
+
+#### Internet Layer
+
+- Routes and forwards packets between different networks.
+
+#### Transport Layer
+
+- Splits data into packets and reassembles them, making sure nothing is lost, duplicated or out of order.
+
+#### Application
+
+- Where programs such as web browsers and mail clients operate. (HTTP/DNS/SMTP).

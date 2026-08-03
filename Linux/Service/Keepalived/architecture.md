@@ -1,9 +1,8 @@
-
 ## Component
 
 Diagram
 
-``` text
+```text
                   Keepalived
                        |
       ----------------------------------
@@ -28,6 +27,3 @@ Election Master   check_script     notify.sh
 ### VRRP Advertisement
 
 - MASTER continuously send multicast packets.
-
-
-
