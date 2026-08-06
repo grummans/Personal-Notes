@@ -1,8 +1,8 @@
 ---
 type: concept
-topics: [networking, routing, ip, cidr, network-layer]
+topics: [networking, routing, ip, cidr, network-layer, vms]
 status: raw
-updated: 2026-08-03
+updated: 2026-08-06
 ---
 
 # Routing
@@ -27,3 +27,5 @@ Dạng đọc phổ biến là `Destination via Next Hop dev Interface`, ví d�
 - Liên quan tới [Subnetting](./subnetting.md) — vì routing table match route theo network range/CIDR.
 - Thuộc [OSI Model](./osi-model.md) — vì routing là trách nhiệm của Network Layer.
 - Liên quan tới [VPN](./vpn.md) — vì VPN tạo tunnel làm thay đổi đường đi logic của traffic tới private network.
+- Liên quan tới [VMS streaming flow](./vms-streaming-flow.md) — vì nhiều server nhận và chuyển tiếp streaming flow qua các hop trong hệ thống.
+- Liên quan tới [VMS benchmark](./vms-benchmark.md) — liên kết chưa được xác nhận; benchmark nói bottleneck NIC và input/output stream, nhưng chưa mô tả routing table cụ thể.

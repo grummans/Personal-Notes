@@ -1,8 +1,8 @@
 ---
 type: concept
-topics: [networking, port, tcp, udp, transport-layer]
+topics: [networking, port, tcp, udp, transport-layer, rtsp]
 status: raw
-updated: 2026-08-03
+updated: 2026-08-06
 ---
 
 # Port
@@ -34,3 +34,4 @@ Một số port thường gặp: SSH `22`, DNS `53`, HTTP `80`, HTTPS `443`, MyS
 - Được dùng bởi [UDP](./udp.md) — vì UDP datagram cũng dùng port để chuyển dữ liệu tới đúng process/service.
 - Liên quan tới [DNS](./dns.md) — vì DNS thường dùng port `53`.
 - Liên quan tới [Nginx configuration](./nginx-configuration.md) — vì Nginx `listen` và reverse proxy phụ thuộc vào port như `80`, `443` hoặc backend port.
+- Liên quan tới [RTSP Server](../entities/rtsp-server.md) — liên kết chưa được xác nhận; RTSP là traffic service-level nên cần port để client/server phân biệt service, nhưng note chưa ghi port cụ thể.

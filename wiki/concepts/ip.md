@@ -1,8 +1,8 @@
 ---
 type: concept
-topics: [networking, ip, tcp-ip, network-layer, routing, subnetting, dns, vpn]
+topics: [networking, ip, tcp-ip, network-layer, routing, subnetting, dns, vpn, vms]
 status: raw
-updated: 2026-08-03
+updated: 2026-08-06
 ---
 
 # IP
@@ -40,3 +40,5 @@ Trong mô hình [TCP/IP](./tcp-ip.md), IP nằm ở Internet Layer, cùng nhóm 
 - Được dùng bởi [Routing](./routing.md) — vì routing chọn next hop dựa trên destination IP/range.
 - Được phân giải bởi [DNS](./dns.md) — vì DNS chuyển domain name thành địa chỉ IP.
 - Liên quan tới [VPN](./vpn.md) — vì VPN tunnel vẫn cần IP để endpoint và traffic được định tuyến.
+- Liên quan tới [VMS streaming flow](./vms-streaming-flow.md) — vì các luồng RTSP đi giữa camera/server/client qua network addressing.
+- Liên quan tới [VMS benchmark](./vms-benchmark.md) — vì bottleneck camera flow phụ thuộc vào traffic đi qua network stack.
