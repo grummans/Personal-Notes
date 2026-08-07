@@ -1,0 +1,5 @@
+### RAID Techinal
+
+- Stripping
+
+- Mirroring
